@@ -158,14 +158,7 @@ function App() {
                                 <p className="text-sm text-gray-500">
                                     {new Date(gift.created_at).toLocaleDateString()}
                                 </p>
-
-                                {/* Download Button */}
-                                {/* <button
-                                    onClick={() => downloadCard(gift)}
-                                    className="w-full bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md transition duration-300"
-                                >
-                                    Download Image
-                                </button> */}
+                                
                               <button
                                     onClick={() => downloadCard(gift)}
                                     className="download-btn w-full bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md transition duration-300"
